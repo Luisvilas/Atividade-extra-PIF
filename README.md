@@ -112,7 +112,3 @@ Produto *estoque = (Produto *) malloc(n * sizeof(Produto));
 free(estoque);   // devolve a memória ao sistema
 estoque = NULL;  // boa prática: evita ponteiro dangling
 ```
-
----
-
-## Conceitos-chave resumidos
